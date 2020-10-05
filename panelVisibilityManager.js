@@ -372,8 +372,7 @@ var PanelVisibilityManager = class HideTopBar_PanelVisibilityManager {
 	    ],
 	    [
 		PanelBox,
-		/* 'notify::anchor-y',*/
-		'notify::allocation',
+		'notify::anchor-y',
 		() => {
 		    this._updateStaticBox();
 		    this._updateSettingsMouseSensitive();
